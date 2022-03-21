@@ -1,4 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Boilerplate and Starter for Next JS 12+ and TypeScript
+
+🚀 Boilerplate and Starter for Next.js, Tailwind CSS and TypeScript
+
+🔥 Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, VSCode, Vercel
+
+<p align="center">
+  <img src="public/assets/nextjs-banner.png?raw=true" alt="Next js starter banner">
+</p>
 
 ## For use the template
 
