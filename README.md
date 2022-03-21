@@ -1,5 +1,19 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# For use the template
+
+You can use the template using this command:
+
+```bash
+ npx create-next-app --example https://github.com/Strapazzon/next-starter-kit <APP_NAME>
+```
+
+or
+
+```bash
+ dgit Strapazzon/next-starter-kit <APP_NAME>
+```
+
 ## Getting Started
 
 First, run the development server:
