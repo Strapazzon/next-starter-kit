@@ -1,8 +1,7 @@
 /*
- * 2022 Getúlio Strapazzon - Todos os direitos reservados
- * A cópia não autorizada deste arquivo, por qualquer meio, é estritamente proibida
- * Confidenciais e proprietárias
- */
+This is a Next.js project bootstrapped with Strapazzon/next-starter
+*/
+
 /// <reference types="next" />
 /// <reference types="next/image-types/global" />
 // NOTE: This file should not be edited
