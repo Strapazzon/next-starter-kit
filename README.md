@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# For use the template
+## For use the template
 
 You can use the template using this command:
 
@@ -12,6 +12,18 @@ or
 
 ```bash
  dgit Strapazzon/next-starter-kit <APP_NAME>
+```
+
+## Folder Structure
+
+```bash
+.
+├── public
+├── src
+│ ├── pages    # Application pages and routes definition
+│ ├── modules  # Application modules
+│ └── lib      # Libraries and utils
+│ └── common   # Common components
 ```
 
 ## Getting Started
