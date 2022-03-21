@@ -1,0 +1,44 @@
+{
+  "name": "next-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "postbuild": "next-sitemap",
+    "start": "next start",
+    "lint": "eslint \"./src/**/*.{js,jsx,ts,tsx}\"",
+    "format": "prettier \"./src/**/*.+(ts|tsx|js|jsx|json|yml|yaml|md|mdx)\"",
+    "format:write": "npm run format -- --write",
+    "validate:format": "npm run format -- --check",
+    "validate:build": "tsc --noEmit",
+    "validate": "npm run lint && npm run validate:format && npm run validate:build",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "next": "12.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "@svgr/webpack": "^6.2.1",
+    "@types/node": "17.0.21",
+    "@types/react": "17.0.41",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "8.11.0",
+    "eslint-config-next": "12.1.0",
+    "eslint-plugin-header": "^3.1.1",
+    "husky": "^7.0.0",
+    "lint-staged": "^12.3.7",
+    "prettier": "^2.6.0",
+    "typescript": "4.6.2",
+    "url-loader": "^4.1.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

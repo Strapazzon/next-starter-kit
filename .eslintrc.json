@@ -1,0 +1,24 @@
+{
+  "extends": ["next/core-web-vitals"],
+  "plugins": ["header"],
+  "settings": {
+    "import/internal-regex": "^common|^lib/|^modules/|^pages/"
+  },
+  "rules": {
+    "no-console": [
+      "error",
+      {
+        "allow": ["warn", "info", "error"]
+      }
+    ],
+    "arrow-body-style": 0,
+    "react/jsx-filename-extension": "off",
+    "react/destructuring-assignment": 0,
+    "import/no-named-as-default": "off",
+    "header/header": [
+      2,
+      "block",
+      ["*", " 2022 Getúlio Strapazzon - Next starter kit ", "*"]
+    ]
+  }
+}

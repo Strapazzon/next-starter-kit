@@ -1,0 +1,63 @@
+name: Checks
+on: [push, pull_request]
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-18.04
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Lint
+        run: yarn lint
+
+  build:
+    name: Build
+    runs-on: ubuntu-18.04
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Typecheck
+        uses: andoshin11/typescript-error-reporter-action@v1.0.2
+
+      - name: Build
+        run: yarn validate:build
+
+  # test:
+  #   name: Test
+  #   runs-on: ubuntu-18.04
+  #   timeout-minutes: 15
+  #   steps:
+  #     - name: Checkout
+  #       uses: actions/checkout@v1
+
+  #     - name: Setup Node.js
+  #       uses: actions/setup-node@v1
+  #       with:
+  #         node-version: 12
+
+  #     - name: Install dependencies
+  #       run: yarn install --frozen-lockfile
+
+  #     - name: Test
+  #       run: yarn test
