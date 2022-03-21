@@ -1,6 +1,6 @@
-/**
- 2022 Getúlio Strapazzon - Next starter kit 
-**/
+/*
+This is a Next.js project bootstrapped with Strapazzon/next-starter
+*/
 
 import type { NextPage } from 'next'
 import Head from 'next/head'

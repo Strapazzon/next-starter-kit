@@ -18,7 +18,12 @@
     "header/header": [
       2,
       "block",
-      ["*", " 2022 Getúlio Strapazzon - Next starter kit ", "*"]
+      [
+        "",
+        "This is a Next.js project bootstrapped with Strapazzon/next-starter",
+        ""
+      ],
+      2
     ]
   }
 }
