@@ -2,7 +2,6 @@
 This is a Next.js project bootstrapped with Strapazzon/next-starter
 */
 
-import wipeCSS from 'wipe.css'
 import { createStitches } from '@stitches/react'
 
 export const {
@@ -135,7 +134,6 @@ export const {
 })
 
 export const globalStyles = globalCss({
-  ...wipeCSS,
   '*': {
     fontFamily: `-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu;`,
   },
