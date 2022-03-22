@@ -5,13 +5,6 @@
  Ex: Your Company 2022
 */
 
-
-
-
-
-
-
-
 import { createStitches } from '@stitches/react'
 
 export const {
