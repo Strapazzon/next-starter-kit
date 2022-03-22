@@ -6,6 +6,7 @@ import { globalStyles } from 'common/theme/stitches'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import React from 'react'
+import 'wipe.css'
 
 const App: React.FC<AppProps> = ({ Component, pageProps }) => {
   globalStyles()
