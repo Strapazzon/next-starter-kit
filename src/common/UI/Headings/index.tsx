@@ -5,13 +5,6 @@
  Ex: Your Company 2022
 */
 
-
-
-
-
-
-
-
 import { styled } from 'common/theme/stitches'
 
 export const H1 = styled('h1', {
