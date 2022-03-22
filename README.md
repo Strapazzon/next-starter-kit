@@ -1,8 +1,20 @@
-# Boilerplate and Starter for Next JS 12+ and TypeScript
+# Boilerplate and Starter for Next JS 12+
 
-🚀 Boilerplate and Starter for Next.js, Tailwind CSS and TypeScript
+🚀 Boilerplate and Starter for Next.js.
 
-🔥 Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, VSCode, NextSitemap and Vercel
+🔥 Made with developer experience first:
+
+[![Next](https://img.shields.io/badge/-Next-000?style=flat-square&logo=Next.js&logoColor=white)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=TypeScript&logoColor=white)](https://www.typescriptlang.org/)
+[![EsLint](https://img.shields.io/badge/-ESLint-4B32C3?style=flat-square&logo=ESLint&logoColor=white)](https://eslint.org/)
+[![Prettier](https://img.shields.io/badge/-Prettier-F7B93E?style=flat-square&logo=Prettier&logoColor=white)](https://eslint.org/)
+[![Husky](https://img.shields.io/badge/-Husky-006D5C?style=flat-square)](https://typicode.github.io/husky/#/)
+[![Lint-Staged](https://img.shields.io/badge/-Lint--Staged-4B32C3?style=flat-square&logo=ESLint&logoColor=white)](https://github.com/okonet/lint-staged)
+[![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=flat-square&logo=Visual-Studio-Code&logoColor=white)](https://code.visualstudio.com/)
+[![Next-Sitemap](https://img.shields.io/badge/-Next--Sitemap-19A974?style=flat-square)](https://github.com/iamvishnusankar/next-sitemap)
+[![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=Vercel&logoColor=white)](https://vercel.com)
+[![Stitches/react](https://img.shields.io/badge/-Stitches/react-70088A?style=flat-square)](https://stitches.dev)
+[![WipeCss](https://img.shields.io/badge/-Wipe.css-8B5CF6?style=flat-square)](https://github.com/danilowoz/wipe.css/)
 
 <p align="center">
   <img src="public/assets/nextjs-banner.png?raw=true" alt="Next js starter banner">

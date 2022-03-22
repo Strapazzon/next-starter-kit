@@ -2,9 +2,19 @@
 This is a Next.js project bootstrapped with Strapazzon/next-starter
 */
 
+import { styled } from 'common/theme/stitches'
+import { Button } from 'common/UI/Button'
+import { H1 } from 'common/UI/Headings'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import React from 'react'
+
+const Content = styled('div', {
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  height: '40rem',
+})
 
 const Home: NextPage = () => {
   return (
@@ -15,11 +25,12 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <h1>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-      </main>
+      <Content>
+        <H1>Welcome to</H1>
+        <a href="https://nextjs.org">
+          <Button variant="gray">Next.js!</Button>
+        </a>
+      </Content>
     </React.Fragment>
   )
 }
