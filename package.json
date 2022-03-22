@@ -34,8 +34,7 @@
     "lint-staged": "^12.3.7",
     "next-sitemap": "^2.5.13",
     "prettier": "^2.6.0",
-    "typescript": "4.6.2",
-    "url-loader": "^4.1.1"
+    "typescript": "4.6.2"
   },
   "config": {
     "commitizen": {
