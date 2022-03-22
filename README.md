@@ -2,7 +2,7 @@
 
 🚀 Boilerplate and Starter for Next.js, Tailwind CSS and TypeScript
 
-🔥 Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, VSCode, Vercel
+🔥 Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, VSCode, NextSitemap and Vercel
 
 <p align="center">
   <img src="public/assets/nextjs-banner.png?raw=true" alt="Next js starter banner">
