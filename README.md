@@ -23,7 +23,9 @@
 ```bash
  npx create-next-app --example https://github.com/Strapazzon/next-starter-kit <APP_NAME>
 ```
+
 or
+
 ```bash
  dgit Strapazzon/next-starter-kit <APP_NAME>
 ```
@@ -72,5 +74,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## License
-MIT
 
+[MIT](LICENSE.md)
