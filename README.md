@@ -20,14 +20,10 @@
 
 ## How to Use
 
-You can use the template using this command:
-
 ```bash
  npx create-next-app --example https://github.com/Strapazzon/next-starter-kit <APP_NAME>
 ```
-
 or
-
 ```bash
  dgit Strapazzon/next-starter-kit <APP_NAME>
 ```
