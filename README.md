@@ -1,8 +1,6 @@
 # Boilerplate and Starter for Next JS 12+
 
-🚀 Boilerplate and Starter for Next.js.
-
-🔥 Made with developer experience first:
+🚀 Made with developer experience first:
 
 [![Next](https://img.shields.io/badge/-Next-000?style=flat-square&logo=Next.js&logoColor=white)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=TypeScript&logoColor=white)](https://www.typescriptlang.org/)
