@@ -18,7 +18,7 @@
   <img src="public/assets/nextjs-banner.png?raw=true" alt="Next js starter banner">
 </p>
 
-## For use the template
+## How to Use
 
 You can use the template using this command:
 
