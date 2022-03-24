@@ -5,7 +5,7 @@
 [![Next](https://img.shields.io/badge/-Next-000?style=flat-square&logo=Next.js&logoColor=white)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=TypeScript&logoColor=white)](https://www.typescriptlang.org/)
 [![EsLint](https://img.shields.io/badge/-ESLint-4B32C3?style=flat-square&logo=ESLint&logoColor=white)](https://eslint.org/)
-[![Prettier](https://img.shields.io/badge/-Prettier-F7B93E?style=flat-square&logo=Prettier&logoColor=white)](https://eslint.org/)
+[![Prettier](https://img.shields.io/badge/-Prettier-F7B93E?style=flat-square&logo=Prettier&logoColor=white)](https://prettier.io/)
 [![Husky](https://img.shields.io/badge/-Husky-006D5C?style=flat-square)](https://typicode.github.io/husky/#/)
 [![Lint-Staged](https://img.shields.io/badge/-Lint--Staged-4B32C3?style=flat-square&logo=ESLint&logoColor=white)](https://github.com/okonet/lint-staged)
 [![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=flat-square&logo=Visual-Studio-Code&logoColor=white)](https://code.visualstudio.com/)
